@@ -1,27 +1,18 @@
 {
   "name": "home",
-  "version": "1.0.0",
-  "description": "Chris' super rad home page",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "mocha"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CGreff/home"
-  },
-  "keywords": [
-    "super",
-    "rad",
-    "home",
-    "page",
-    "get",
-    "out"
-  ],
-  "author": "Chris Greff",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CGreff/home/issues"
-  },
-  "homepage": "https://github.com/CGreff/home"
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
+  }
 }
