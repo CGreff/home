@@ -1,0 +1,27 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Chris' super rad home page",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CGreff/home"
+  },
+  "keywords": [
+    "super",
+    "rad",
+    "home",
+    "page",
+    "get",
+    "out"
+  ],
+  "author": "Chris Greff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CGreff/home/issues"
+  },
+  "homepage": "https://github.com/CGreff/home"
+}
